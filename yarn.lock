@@ -1846,7 +1846,7 @@ __metadata:
   dependencies:
     "@microsoft/api-extractor": 7.13.2
     "@nomiclabs/hardhat-ethers": ^2.0.2
-    "@types/chai": 4.2.15
+    "@types/chai": 4.3.5
     "@types/chai-as-promised": 7.1.3
     "@types/chai-spies": 1.0.3
     "@types/fs-extra": 9.0.8
@@ -1856,7 +1856,7 @@ __metadata:
     "@types/ws": 7.4.4
     "@typescript-eslint/eslint-plugin": 4.17.0
     "@typescript-eslint/parser": 4.18.0
-    chai: 4.3.4
+    chai: 4.3.7
     chai-as-promised: 7.1.1
     chai-spies: 1.0.0
     cross-env: 7.0.3
@@ -4003,17 +4003,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/chai@npm:*, @types/chai@npm:^4.2.0, @types/chai@npm:^4.3.4":
+"@types/chai@npm:*, @types/chai@npm:4.3.5, @types/chai@npm:^4.2.0, @types/chai@npm:^4.3.4":
   version: 4.3.5
   resolution: "@types/chai@npm:4.3.5"
   checksum: c8f26a88c6b5b53a3275c7f5ff8f107028e3cbb9ff26795fff5f3d9dea07106a54ce9e2dce5e40347f7c4cc35657900aaf0c83934a25a1ae12e61e0f5516e431
-  languageName: node
-  linkType: hard
-
-"@types/chai@npm:4.2.15":
-  version: 4.2.15
-  resolution: "@types/chai@npm:4.2.15"
-  checksum: 8c131d404652e1d5e29eed42b9923da56fc2d358dce929002eb2f2ee64b836632456f9b357a54ba5c5f37b7aafe17d7ab0b9700b2ef95932ddb7160cce120230
   languageName: node
   linkType: hard
 
@@ -7301,21 +7294,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chai@npm:4.3.4":
-  version: 4.3.4
-  resolution: "chai@npm:4.3.4"
-  dependencies:
-    assertion-error: ^1.1.0
-    check-error: ^1.0.2
-    deep-eql: ^3.0.1
-    get-func-name: ^2.0.0
-    pathval: ^1.1.1
-    type-detect: ^4.0.5
-  checksum: 772c522b3bfe3fcf0e0e74edfe584cd886b0e85a73126dec750095300e023d4e1ec6d40e3c35a80d2bd8f33dca46c42767a36f5f50f32dca6fa31c88b5f49ab8
-  languageName: node
-  linkType: hard
-
-"chai@npm:^4.2.0, chai@npm:^4.3.7":
+"chai@npm:4.3.7, chai@npm:^4.2.0, chai@npm:^4.3.7":
   version: 4.3.7
   resolution: "chai@npm:4.3.7"
   dependencies:
@@ -8852,15 +8831,6 @@ __metadata:
   dependencies:
     mimic-response: ^2.0.0
   checksum: 4e783ca4dfe9417354d61349750fe05236f565a4415a6ca20983a311be2371debaedd9104c0b0e7b36e5f167aeaae04f84f1a0b3f8be4162f1d7d15598b8fdba
-  languageName: node
-  linkType: hard
-
-"deep-eql@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "deep-eql@npm:3.0.1"
-  dependencies:
-    type-detect: ^4.0.0
-  checksum: 4f4c9fb79eb994fb6e81d4aa8b063adc40c00f831588aa65e20857d5d52f15fb23034a6576ecf886f7ff6222d5ae42e71e9b7d57113e0715b1df7ea1e812b125
   languageName: node
   linkType: hard
 
