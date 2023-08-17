@@ -4,11 +4,12 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import { NodeModulesPolyfillPlugin } from "@esbuild-plugins/node-modules-polyfill";
 import RollupPluginPolyfillNode from "rollup-plugin-polyfill-node";
+import { viteSingleFile } from "vite-plugin-singlefile";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   base: "./",
-  plugins: [react()],
+  plugins: [react(), viteSingleFile()],
   define: { "process.env": {} }, // Coinbase SDK wants this
   optimizeDeps: {
     include: [
