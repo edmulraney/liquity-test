@@ -1555,12 +1555,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphprotocol/graph-ts@npm:^0.20.1":
-  version: 0.20.1
-  resolution: "@graphprotocol/graph-ts@npm:0.20.1"
+"@graphprotocol/graph-ts@npm:^0.31.0":
+  version: 0.31.0
+  resolution: "@graphprotocol/graph-ts@npm:0.31.0"
   dependencies:
-    assemblyscript: "git+https://github.com/AssemblyScript/assemblyscript.git#v0.6"
-  checksum: d98e729d08b10e65f88f64ef619fb99bb76788ae01a1805169908de2d2aa42d6ea21f8d69fecd77375d6a5d79d920e70d0e815f67068b84cf071b388b4984afa
+    assemblyscript: 0.19.10
+  checksum: 20394b17d3241a662f0b2efebdc02f44e4e0814fdbb09b4cac0c84b84a173798325840bc1daf1d11ebaf27b1b3e13ff6e2766567c755cb77c1321ba1462fbecc
   languageName: node
   linkType: hard
 
@@ -1930,7 +1930,7 @@ __metadata:
   resolution: "@liquity/subgraph@workspace:packages/subgraph"
   dependencies:
     "@graphprotocol/graph-cli": ^0.20.1
-    "@graphprotocol/graph-ts": ^0.20.1
+    "@graphprotocol/graph-ts": ^0.31.0
     npm-run-all: ^4.1.5
   languageName: unknown
   linkType: soft
@@ -6321,6 +6321,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"assemblyscript@npm:0.19.10":
+  version: 0.19.10
+  resolution: "assemblyscript@npm:0.19.10"
+  dependencies:
+    binaryen: 101.0.0-nightly.20210723
+    long: ^4.0.0
+  bin:
+    asc: bin/asc
+    asinit: bin/asinit
+  checksum: d4087bcbae402eb0e972a78d8dfee607b2b51f4b29fcee5359f4db3052912ec12492a8714916bed8424f7f495f9357c7c6ab2482ba1d4ea4a44c55a86df5a67c
+  languageName: node
+  linkType: hard
+
 "assert-plus@npm:1.0.0, assert-plus@npm:^1.0.0":
   version: 1.0.0
   resolution: "assert-plus@npm:1.0.0"
@@ -6603,6 +6616,15 @@ __metadata:
   version: 2.2.0
   resolution: "binary-extensions@npm:2.2.0"
   checksum: ccd267956c58d2315f5d3ea6757cf09863c5fc703e50fbeb13a7dc849b812ef76e3cf9ca8f35a0c48498776a7478d7b4a0418e1e2b8cb9cb9731f2922aaad7f8
+  languageName: node
+  linkType: hard
+
+"binaryen@npm:101.0.0-nightly.20210723":
+  version: 101.0.0-nightly.20210723
+  resolution: "binaryen@npm:101.0.0-nightly.20210723"
+  bin:
+    wasm-opt: bin/wasm-opt
+  checksum: b1f7cc8e9fb4f1530e9454b5ea6deba17e2d863cea4efc6d0ba1b2af2325e9080c29df0ffeaf9708d455705a629a6a4fbef0ac29ed789a4e316b4c1437879f57
   languageName: node
   linkType: hard
 
