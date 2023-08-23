@@ -1,12 +1,12 @@
+// @ts-ignore
+window.global ||= window;
+
 import React from "react";
 import ReactDOM from "react-dom";
 import Modal from "react-modal";
 
 import "./index.css";
 import App from "./App";
-
-// @ts-ignore
-window.global ||= window
 
 Modal.setAppElement("#root");
 
