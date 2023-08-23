@@ -28,8 +28,10 @@ export default defineConfig({
       include: ["**.cjs", "**.js"]
     },
     rollupOptions: {
+      treeshake: false,
       plugins: [RollupPluginPolyfillNode()]
-    }
+    },
+    minify: false
   },
   resolve: {
     alias: {
