@@ -9,8 +9,8 @@ import { viteSingleFile } from "vite-plugin-singlefile";
 // https://vitejs.dev/config/
 export default defineConfig({
   base: "./",
-  plugins: [react()],
-  // plugins: [react(), viteSingleFile()],
+  // plugins: [react()],
+  plugins: [react(), viteSingleFile()],
   define: { "process.env": {} }, // Coinbase SDK wants this
   optimizeDeps: {
     include: [
